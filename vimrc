@@ -18,8 +18,7 @@ highlight LineNr ctermfg=grey
 
 set colorcolumn=80
 
-highlight Normal guibg=black guifg=white
-set background=dark
+set bg=dark
 
 " Jump to the last position when reopening a file
 if has("autocmd")
