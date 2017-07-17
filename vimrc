@@ -16,6 +16,9 @@ set expandtab
 set autoindent
 set smartindent
 
+" Remove auto newline commenting
+autocmd BufNewFile,BufRead * setlocal formatoptions-=cro
+
 " Display line numbers
 set number
 highlight LineNr ctermfg=grey
