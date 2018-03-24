@@ -4,7 +4,9 @@ set nocompatible
 set exrc
 set secure
 
+filetype off
 filetype indent plugin on
+syntax on
 
 " Set spacing to 4 spaces instead of 8
 set tabstop=4
@@ -41,3 +43,7 @@ if &t_Co > 2 || has("gui_running")
     syntax on
     set hlsearch
 endif
+
+
+" Add syntax files
+source ~/vimconfig/syntax/*.vim
