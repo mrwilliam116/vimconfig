@@ -47,3 +47,9 @@ endif
 
 " Add syntax files
 source ~/vimconfig/syntax/*.vim
+
+
+" /** 
+"iab <buffer> /** /**^M *^M*/^[0A
+
+autocmd BufNewFile,BufRead * setlocal formatoptions+=r
